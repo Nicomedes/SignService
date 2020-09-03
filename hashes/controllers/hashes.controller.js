@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 const bodyParser = require("body-parser");
 const fs = require('fs');
-const privatekey = fs.readFileSync('/Users/nicomedes/OneDrive - Tis Tech Angola/Localização (AO)/2_ANÁLISE_DESENHO/DESENHO/SignService/hashes/controllers/ChavePrivada.pem');
+const privatekey = fs.readFileSync('/usr/app//hashes/controllers/ChavePrivada.pem');
 
 exports.generate = (req, res) => {
 
